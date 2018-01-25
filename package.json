@@ -1,0 +1,23 @@
+{
+  "name": "course_tracker",
+  "version": "1.0.0",
+  "description": "application that will keep track of student class info",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarRobertRodriguez/courseTracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarRobertRodriguez/courseTracker/issues"
+  },
+  "homepage": "https://github.com/OscarRobertRodriguez/courseTracker#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
