@@ -1,0 +1,38 @@
+
+
+
+ul, li {
+ list-style: none;
+ margin: 0;
+ text-align: center;
+ padding:0;
+}
+
+
+
+.course-tracker {
+ list-style: none;
+ display: flex;
+ flex-direction: column;
+ border: 1px solid black;
+}
+
+.course-tracker__path {
+  background: RGBA(235, 46, 102, 1);
+  border: none;
+  border-radius: 6px;
+  margin: 1px;
+}
+
+.course-tracker__path > ul {
+  max-height: 3px;
+  overflow: hidden;
+}
+
+.course-tracker__path > h2 {
+  height: 50%;
+  margin: 0;
+  padding: 2rem;
+  text-transform: capitalize;
+  color: #fff;
+}
