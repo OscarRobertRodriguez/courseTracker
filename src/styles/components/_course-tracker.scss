@@ -8,26 +8,25 @@ ul, li {
  padding:0;
 }
 
-
-
 .course-tracker {
  list-style: none;
  display: flex;
  flex-direction: column;
- border: 1px solid black;
 }
 
 .course-tracker__path {
-  background: RGBA(235, 46, 102, 1);
+  background: rgb(235, 46, 102);
   border: none;
   border-radius: 6px;
   margin: 1px;
 }
 
-.course-tracker__path > ul {
-  max-height: 3px;
+.course-tracker__path__courses {
+  max-height: 1px;
   overflow: hidden;
+  transition: max-height 1s ease;
 }
+
 
 .course-tracker__path > h2 {
   height: 50%;
@@ -36,3 +35,46 @@ ul, li {
   text-transform: capitalize;
   color: #fff;
 }
+
+
+.course-tracker__sub-category {
+  background: #1E88E5;
+  padding: .5rem;
+  margin: 0;
+}
+
+.course-tracker__sub-category > h3 {
+  width: 100%;
+  margin: 0;
+  padding: 1.3rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.sub-category__chapters {
+  max-height: 1px;
+  overflow: hidden;
+  transition: all .8s ease;
+  background: #66BB6A;
+}
+
+.sub-category__chapters li {
+   padding: 1.5rem;
+   text-align: left;
+   text-transform: capitalize;
+}
+
+ul.open-sub > li {
+  transition: padding .1ms ease;
+}
+
+.open {
+  max-height:1200px;
+}
+
+.open-sub {
+  max-height: 600px;
+}
+
+
+

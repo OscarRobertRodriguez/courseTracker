@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  overflow-y: scroll;
 }
 
 // set all elements to border-box styling
@@ -21,7 +22,7 @@ main {
   margin: 80px auto;
 }
 
-section,header,footer {
+section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
